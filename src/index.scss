@@ -1,0 +1,30 @@
+:root {
+  font-family: "Poppins", sans-serif;
+
+  --main-color: #532572;
+  --background: #0d1117;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--white);
+}
+
+main {
+  position: relative;
+  min-height: 100vh;
+  padding: 0 10rem;
+  max-width: 1400px;
+  margin: auto;
+  @media (max-width: 920px) {
+    padding: 0 5rem;
+  }
+}
