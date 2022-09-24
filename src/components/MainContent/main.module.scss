@@ -1,0 +1,29 @@
+.container{
+  display: flex;
+  min-height: 100vh;
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .title{
+      font-size: 4rem;
+      font-weight: 700;
+      color: var(--main-color);
+    }
+    .pText{
+      font-weight: 200;
+    }
+    .viewCV{
+      font-family: "Poppins", sans-serif;
+      cursor: pointer;
+      text-decoration: none;
+      text-align: center;
+      margin-top: 1rem;
+      padding: .5rem 1rem;
+      background-color: var(--main-color);
+      border-radius: .2rem;
+      font-size: 1rem;
+      width: 7rem;
+    }
+  }
+}
