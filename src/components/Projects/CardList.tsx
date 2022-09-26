@@ -1,11 +1,16 @@
+import { Project } from '../../interfaces/intefaces';
+
 import Card from './Card';
-import { projects } from './data';
 import styles from './project.module.scss';
 
-const CardList = () => {
+interface CardListProps {
+  projects: Project[];
+  cantProjects: number;
+}
+const CardList = ({ projects, cantProjects }: CardListProps) => {
   return (
     <section className={styles.container}>
-      {projects.map((project) => (
+      {projects.slice(0, cantProjects).map((project) => (
         <Card key={project.id} values={project} />
       ))}
     </section>

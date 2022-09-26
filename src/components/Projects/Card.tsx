@@ -25,11 +25,11 @@ const Card = ({ values }: CardProps) => {
           ))}
         </div>
         <div className={styles.links}>
-          <a href={linkGithub}>
+          <a href={linkGithub} rel="noreferrer" target="_BLANK">
             <img alt="github" src={github} />
           </a>
           {linkWeb && (
-            <a href={linkWeb}>
+            <a href={linkWeb} rel="noreferrer" target="_BLANK">
               <img alt="web" src={web} />
             </a>
           )}

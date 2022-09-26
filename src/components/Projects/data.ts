@@ -27,14 +27,14 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    name: 'Fullstack | Alkemy Challenge',
+    name: 'Fullstack | Alkemy',
     img: alkemy,
     linkGithub: 'https://github.com/f-antonelli/alkemy-fullstack-challenge',
     tags: ['nodejs', 'express', 'reactjs', 'postgresql', 'sequelize', 'tailwind'],
   },
   {
     id: 4,
-    name: 'Frontend | Aerolab Challenge',
+    name: 'Frontend | Aerolab',
     img: aerolab,
     linkWeb: 'http://aerolab-challenge-silk.vercel.app/',
     linkGithub: 'https://github.com/f-antonelli/aerolab-challenge',
@@ -66,7 +66,7 @@ export const projects: Project[] = [
   },
   {
     id: 8,
-    name: 'Frontend React | Alkemy Challenge',
+    name: 'Frontend | Alkemy',
     img: alkemy,
     linkGithub: 'https://github.com/f-antonelli/reactalkemy-challenge',
     tags: ['reactjs', 'styled-components', 'spoonacular-api', 'formik'],

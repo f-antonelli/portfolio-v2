@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
-import MainPage from './pages/Main';
-import ProjectsPage from './pages/Projects';
+import MainPage from './pages/MainPage';
+import ProjectsPage from './pages/ProjectsPage';
 
 const App = () => {
   return (
