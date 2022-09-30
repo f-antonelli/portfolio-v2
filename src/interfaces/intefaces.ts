@@ -3,6 +3,12 @@ export interface NavItems {
   img: string;
 }
 
+export interface FooterItems {
+  id: number;
+  link?: string;
+  img: string;
+}
+
 export interface Project {
   id: number;
   name: string;
