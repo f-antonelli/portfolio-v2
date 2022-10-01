@@ -1,11 +1,15 @@
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import MainPage from './pages/Main';
+import MainPage from './pages/MainPage';
+import ProjectsPage from './pages/ProjectsPage';
 
 const App = () => {
   return (
     <main>
-      <MainPage />
       <Navbar />
+      <MainPage />
+      <ProjectsPage />
+      <Footer />
     </main>
   );
 };
