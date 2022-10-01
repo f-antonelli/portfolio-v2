@@ -1,7 +1,7 @@
 import { FooterItems } from '../../interfaces/intefaces';
-import linkedin from '../../assets/linkedin.svg';
-import github from '../../assets/github.svg';
-import email from '../../assets/email.svg';
+import linkedin from '../../assets/icons/linkedin.svg';
+import github from '../../assets/icons/github.svg';
+import email from '../../assets/icons/email.svg';
 
 export const footerItems: FooterItems[] = [
   { id: 1, link: 'https://www.linkedin.com/in/antonellifd/', img: linkedin },

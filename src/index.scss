@@ -4,7 +4,9 @@
   --main-color: #532572;
   --background: #0d1117;
   --white: #ffffff;
+  --grey: rgba(255, 255, 255, 0.2);
   --black: #111111;
+  --red: hsl(348, 100%, 52%);
   --light-red: hsl(15, 100%, 70%);
   --soft-blue: hsl(195, 74%, 62%);
   --light-pink: hsl(348, 100%, 68%);
@@ -34,4 +36,24 @@ main {
   @media (max-width: 920px) {
     padding: 0 5rem;
   }
+}
+
+@mixin button {
+  cursor: pointer;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--main-color);
+  color: var(--white);
+  border-radius: 0.2rem;
+  font-size: 1rem;
+}
+
+@mixin input {
+  outline: none;
+  border: 0.5px solid var(--grey);
+  padding: 0.5rem 0.3rem;
+  border-radius: 0.3rem;
+  background-color: transparent;
+  color: var(--white);
 }
