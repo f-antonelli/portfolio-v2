@@ -1,3 +1,5 @@
+@import "../../index.scss";
+
 .container {
   display: flex;
   min-height: 100vh;
@@ -15,16 +17,10 @@
     }
     .viewCV {
       font-family: "Poppins", sans-serif;
-      cursor: pointer;
       text-decoration: none;
-      text-align: center;
-      margin-top: 1rem;
-      padding: 0.5rem 1rem;
-      background-color: var(--main-color);
       color: var(--white);
-      border-radius: 0.2rem;
-      font-size: 1rem;
       width: 7rem;
+      @include button;
     }
   }
 }

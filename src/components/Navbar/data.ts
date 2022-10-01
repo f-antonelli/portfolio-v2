@@ -1,8 +1,8 @@
 import { NavItems } from '../../interfaces/intefaces';
-import projects from '../../assets/projects.svg';
-import person from '../../assets/person.svg';
-import contact from '../../assets/contact.svg';
-import study from '../../assets/study.svg';
+import projects from '../../assets/icons/projects.svg';
+import person from '../../assets/icons/person.svg';
+import contact from '../../assets/icons/contact.svg';
+import study from '../../assets/icons/study.svg';
 
 export const navContent: NavItems[] = [
   { name: 'Home', img: person },

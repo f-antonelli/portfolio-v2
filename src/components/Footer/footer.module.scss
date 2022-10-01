@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 35vh;
+  .title{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  .list{
+    display: flex;
+    justify-content: space-around;
+    .item{
+      cursor: pointer;
+      img{
+        height: 3rem;
+        width: 3rem;
+      }
+    }
+  }
+}

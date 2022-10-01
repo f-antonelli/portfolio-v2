@@ -1,0 +1,71 @@
+@import "../../index.scss";
+
+.portal {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .boxTitle {
+    position: relative;
+    .title {
+      font-size: 2rem;
+      border-bottom: 1px solid var(--grey);
+      margin-bottom: 1rem;
+    }
+    button {
+      cursor: pointer;
+      position: absolute;
+      top: 1rem;
+      right: 0;
+      outline: none;
+      border: none;
+      background-color: transparent;
+      img {
+        width: 1.8rem;
+        height: 1.8rem;
+      }
+    }
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background);
+    width: 600px;
+    padding: 2rem;
+    .form {
+      display: flex;
+      flex-direction: column;
+      .boxInput {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+        .input {
+          @include input;
+        }
+        .textarea {
+          @include input;
+          resize: none;
+        }
+        .error {
+          padding: 0 0.5rem;
+          background-color: var(--red);
+          font-size: 0.7rem;
+          border-radius: 0 0 0.3rem 0.3rem;
+        }
+      }
+      .button {
+        outline: none;
+        border: none;
+        @include button;
+      }
+    }
+  }
+}
