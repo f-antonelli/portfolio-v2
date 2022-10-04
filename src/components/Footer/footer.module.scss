@@ -1,11 +1,12 @@
+@import '../../index.scss';
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 35vh;
   .title{
-    font-size: 2rem;
-    margin-bottom: 3rem;
+@include title;
   }
   .list{
     display: flex;
