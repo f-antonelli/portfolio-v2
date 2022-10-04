@@ -57,3 +57,8 @@ main {
   background-color: transparent;
   color: var(--white);
 }
+
+@mixin title{
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}

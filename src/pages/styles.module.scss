@@ -1,8 +1,16 @@
+@import '../index.scss';
+
 .title {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  @include title;
 }
+.subtitle{
+  font-size: 1.7rem;
+}
+.description {
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
 .container {
   display: flex;
   justify-content: center;

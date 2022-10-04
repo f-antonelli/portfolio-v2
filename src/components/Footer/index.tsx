@@ -1,5 +1,5 @@
+import useModal from '../../hooks/useModal';
 import FormContact from '../Form/FormContact';
-import useModal from '../hooks/useModal';
 
 import { footerItems } from './data';
 import styles from './footer.module.scss';
