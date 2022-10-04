@@ -8,7 +8,7 @@ const Footer = () => {
   const { isOpen, openModal, closeModal } = useModal();
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contact">
       <h3 className={styles.title}>Contact me.</h3>
       <div className={styles.list}>
         {footerItems.map(({ id, img, link }) => {

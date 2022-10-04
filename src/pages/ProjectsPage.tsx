@@ -13,7 +13,7 @@ const ProjectsPage = () => {
   };
 
   return (
-    <>
+    <section id="projects">
       <h3 className={styles.title}>Project section.</h3>
       <CardList cantProjects={cantProjects} projects={projects} />
 
@@ -24,7 +24,7 @@ const ProjectsPage = () => {
           </button>
         )}
       </div>
-    </>
+    </section>
   );
 };
 

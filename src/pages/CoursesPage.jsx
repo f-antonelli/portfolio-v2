@@ -5,7 +5,7 @@ import styles from './styles.module.scss';
 
 const CoursesPage = () => {
   return (
-    <div>
+    <section id="study">
       <h3 className={styles.title}>Formation.</h3>
 
       <h3 className={styles.subtitle}>Studies.</h3>
@@ -14,7 +14,7 @@ const CoursesPage = () => {
 
       <h3 className={styles.subtitle}>Completed courses.</h3>
       <CoursesList />
-    </div>
+    </section>
   );
 };
 
