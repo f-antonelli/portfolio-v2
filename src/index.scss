@@ -36,6 +36,9 @@ main {
   @media (max-width: 920px) {
     padding: 0 5rem;
   }
+  @media (max-width: 600px) {
+    padding: 0 1rem;
+  }
 }
 
 @mixin button {

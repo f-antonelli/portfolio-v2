@@ -1,0 +1,86 @@
+@import "../../index.scss";
+
+.table {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.3rem;
+  border: 1px solid var(--main-color);
+  box-shadow: 2px 4px 14px 0px rgba(121, 37, 161, 0.75);
+  overflow: scroll;
+  height: 30vh;
+  padding: 1rem;
+  margin: 1rem 0 7rem 0;
+  .tableItem {
+    position: relative;
+    display: flex;
+    padding: 0.3rem 0;
+    td {
+      margin: 0 0.3rem;
+      &:first-child {
+        font-weight: 700;
+        width: 50%;
+      }
+      &:nth-child(2) {
+        width: 30%;
+        font-weight: 300;
+      }
+      span {
+        font-size: 0.8rem;
+        color: var(--grey);
+      }
+    }
+    @media (max-width: 620px) {
+      display: flex;
+      flex-direction: column;
+      td {
+        &:first-child {
+          width: 100%;
+        }
+        &:nth-child(2) {
+          width: 100%;
+        }
+        &:last-child {
+          display: none;
+        }
+      }
+      align-items: center;
+    }
+  }
+}
+
+.studies {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0 3rem 0;
+  .container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.2px solid var(--grey);
+    padding: 0.5rem 0;
+    &:first-child {
+      border-top: 0.2px solid var(--grey);
+    }
+    .title {
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+    .date {
+      font-weight: 300;
+      color: var(--grey);
+    }
+    .studyData {
+      display: flex;
+      align-items: center;
+      font-weight: 300;
+      img {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+        margin: 0 0.5rem;
+      }
+      span {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
