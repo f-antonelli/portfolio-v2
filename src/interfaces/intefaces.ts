@@ -18,3 +18,21 @@ export interface Project {
   technologies?: string[] | string;
   tags?: string[];
 }
+
+export interface Studies {
+  id: number;
+  name: string;
+  date: string;
+  img: string;
+  place: string;
+  idCredential?: string;
+  link?: string;
+}
+export interface Courses {
+  id: number;
+  name: string;
+  date: string;
+  platform: string;
+  idCredential?: string;
+  link: string;
+}

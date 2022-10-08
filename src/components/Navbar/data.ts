@@ -5,18 +5,18 @@ import contact from '../../assets/icons/contact.svg';
 import study from '../../assets/icons/study.svg';
 
 export const navContent: NavItems[] = [
-  { name: 'Home', img: person },
+  { name: 'home', img: person },
   {
-    name: 'Study',
+    name: 'study',
     img: study,
   },
   {
-    name: 'Projects',
+    name: 'projects',
     img: projects,
   },
 
   {
-    name: 'Contact',
+    name: 'contact',
     img: contact,
   },
 ];

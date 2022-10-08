@@ -72,6 +72,7 @@ export const courses: Courses[] = [
     link: 'https://www.udemy.com/certificate/UC-f38dc4f2-2e8a-479f-a938-4ba46f892356/',
   },
   {
+
     id: 7,
     name: 'The MERN Fullstack Guide',
     date: 'September 2022',

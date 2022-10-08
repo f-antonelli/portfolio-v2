@@ -1,5 +1,5 @@
+import useModal from '../../hooks/useModal';
 import FormContact from '../Form/FormContact';
-import useModal from '../hooks/useModal';
 
 import { footerItems } from './data';
 import styles from './footer.module.scss';
@@ -8,7 +8,7 @@ const Footer = () => {
   const { isOpen, openModal, closeModal } = useModal();
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contact">
       <h3 className={styles.title}>Contact me.</h3>
       <div className={styles.list}>
         {footerItems.map(({ id, img, link }) => {
