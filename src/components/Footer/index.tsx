@@ -21,7 +21,9 @@ const Footer = () => {
           }
 
           return (
-            <img key={id} alt={`${id}`} className={styles.item} src={img} onClick={openModal} />
+            <div key={id} className={styles.item}>
+              <img alt={`${id}`} src={img} onClick={openModal} />
+            </div>
           );
         })}
         {isOpen && <FormContact closeModal={closeModal} />}

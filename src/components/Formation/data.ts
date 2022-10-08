@@ -72,7 +72,8 @@ export const courses: Courses[] = [
     link: 'https://www.udemy.com/certificate/UC-f38dc4f2-2e8a-479f-a938-4ba46f892356/',
   },
   {
-    id: 6,
+
+    id: 7,
     name: 'The MERN Fullstack Guide',
     date: 'September 2022',
     platform: 'Udemy',
@@ -80,7 +81,7 @@ export const courses: Courses[] = [
     link: 'https://www.udemy.com/certificate/UC-c117bf4b-42d5-47ac-ac3b-34d1a979024f/',
   },
   {
-    id: 6,
+    id: 8,
     name: ' JavaScript Unit Testing',
     date: 'September 2022',
     platform: 'Udemy',
@@ -88,7 +89,7 @@ export const courses: Courses[] = [
     link: 'https://www.udemy.com/certificate/UC-b117255b-dfe8-48ec-8bc8-6f83b4d1d2bb/',
   },
   {
-    id: 3,
+    id: 9,
     name: 'IBM Agile Explorer',
     date: 'August 2022',
     platform: 'IBM | YourLearning',

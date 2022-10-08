@@ -40,9 +40,7 @@
           width: 100%;
         }
         &:last-child {
-          position: absolute;
-          bottom: 0;
-          right: 0;
+          display: none;
         }
       }
       align-items: center;
