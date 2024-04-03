@@ -1,7 +1,7 @@
-import certification from '../../assets/icons/certification.svg';
-import { Courses } from '../../interfaces/intefaces';
+import certification from "../../assets/icons/certification.svg";
+import { Courses } from "../../interfaces/intefaces";
 
-import styles from './formation.module.scss';
+import styles from "./formation.module.scss";
 
 interface CourseProps {
   data: Courses;
