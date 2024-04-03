@@ -1,7 +1,7 @@
-import CoursesList from '../components/Formation/CoursesList';
-import Studies from '../components/Formation/Studies';
+import CoursesList from "../components/Formation/CoursesList";
+import Studies from "../components/Formation/Studies";
 
-import styles from './styles.module.scss';
+import styles from "./styles.module.scss";
 
 const CoursesPage = () => {
   return (

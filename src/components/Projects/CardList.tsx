@@ -1,7 +1,7 @@
-import { Project } from '../../interfaces/intefaces';
+import { Project } from "../../interfaces/intefaces";
 
-import Card from './Card';
-import styles from './project.module.scss';
+import Card from "./Card";
+import styles from "./project.module.scss";
 
 interface CardListProps {
   projects: Project[];

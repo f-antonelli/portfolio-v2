@@ -1,8 +1,8 @@
-import useModal from '../../hooks/useModal';
-import FormContact from '../Form/FormContact';
+import useModal from "../../hooks/useModal";
+import FormContact from "../Form/FormContact";
 
-import { footerItems } from './data';
-import styles from './footer.module.scss';
+import { footerItems } from "./data";
+import styles from "./footer.module.scss";
 
 const Footer = () => {
   const { isOpen, openModal, closeModal } = useModal();
@@ -14,7 +14,13 @@ const Footer = () => {
         {footerItems.map(({ id, img, link }) => {
           if (link) {
             return (
-              <a key={id} className={styles.item} href={link} rel="noreferrer" target="_BLANK">
+              <a
+                key={id}
+                className={styles.item}
+                href={link}
+                rel="noreferrer"
+                target="_BLANK"
+              >
                 <img alt={`${id}`} src={img} />
               </a>
             );

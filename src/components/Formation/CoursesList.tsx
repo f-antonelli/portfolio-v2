@@ -1,6 +1,6 @@
-import { courses } from './data';
-import Course from './Course';
-import styles from './formation.module.scss';
+import { courses } from "./data";
+import Course from "./Course";
+import styles from "./formation.module.scss";
 
 const CoursesList = () => {
   return (
