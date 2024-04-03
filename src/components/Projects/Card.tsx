@@ -1,8 +1,8 @@
-import { Project } from '../../interfaces/intefaces';
-import github from '../../assets/icons/github.svg';
-import web from '../../assets/icons/web.svg';
+import { Project } from "../../interfaces/intefaces";
+import github from "../../assets/icons/github.svg";
+import web from "../../assets/icons/web.svg";
 
-import styles from './project.module.scss';
+import styles from "./project.module.scss";
 
 interface CardProps {
   values: Project;

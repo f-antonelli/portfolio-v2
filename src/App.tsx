@@ -1,8 +1,8 @@
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
-import MainPage from './pages/MainPage';
-import ProjectsPage from './pages/ProjectsPage';
-import CoursesPage from './pages/CoursesPage';
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import MainPage from "./pages/MainPage";
+import ProjectsPage from "./pages/ProjectsPage";
+import CoursesPage from "./pages/CoursesPage";
 
 const App = () => {
   return (

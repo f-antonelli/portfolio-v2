@@ -1,13 +1,13 @@
-import { Formik, Form } from 'formik';
-import toast, { Toaster } from 'react-hot-toast';
-import emailjs from '@emailjs/browser';
+import { Formik, Form } from "formik";
+import toast, { Toaster } from "react-hot-toast";
+import emailjs from "@emailjs/browser";
 
-import Portal from '../Portal';
-import exit from '../../assets/icons/exit.svg';
+import Portal from "../Portal";
+import exit from "../../assets/icons/exit.svg";
 
-import { validationSchema } from './validationSchema';
-import Input from './Input';
-import styles from './form.module.scss';
+import { validationSchema } from "./validationSchema";
+import Input from "./Input";
+import styles from "./form.module.scss";
 
 interface FormContactProps {
   closeModal: () => void;
@@ -27,10 +27,10 @@ const FormContact = ({ closeModal }: FormContactProps) => {
             </div>
             <Formik
               initialValues={{
-                name: '',
-                email: '',
-                subject: '',
-                message: '',
+                name: "",
+                email: "",
+                subject: "",
+                message: "",
               }}
               validationSchema={validationSchema}
               onSubmit={(values) => {
@@ -39,13 +39,15 @@ const FormContact = ({ closeModal }: FormContactProps) => {
                     import.meta.env.VITE_SERVICE_ID,
                     import.meta.env.VITE_TEMPLATE_ID,
                     values,
-                    import.meta.env.VITE_PUBLIC_KEY,
+                    import.meta.env.VITE_PUBLIC_KEY
                   ),
                   {
-                    loading: 'Sending message...',
+                    loading: "Sending message...",
                     success: <b>Message was sent!</b>,
-                    error: <b>Message couldn&apos;t be sent. Please try again.</b>,
-                  },
+                    error: (
+                      <b>Message couldn&apos;t be sent. Please try again.</b>
+                    ),
+                  }
                 );
               }}
             >

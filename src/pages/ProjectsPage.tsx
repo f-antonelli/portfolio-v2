@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { useState } from "react";
 
-import CardList from '../components/Projects/CardList';
-import { projects } from '../components/Projects/data';
+import CardList from "../components/Projects/CardList";
+import { projects } from "../components/Projects/data";
 
-import styles from './styles.module.scss';
+import styles from "./styles.module.scss";
 
 const ProjectsPage = () => {
   const [cantProjects, setCantProjects] = useState(6);

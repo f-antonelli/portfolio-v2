@@ -1,5 +1,5 @@
-import { FC } from 'react';
-import ReactDOM from 'react-dom';
+import { FC } from "react";
+import ReactDOM from "react-dom";
 
 interface PortalProps {
   target: string;

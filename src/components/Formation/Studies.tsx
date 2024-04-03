@@ -1,5 +1,5 @@
-import { studies } from './data';
-import styles from './formation.module.scss';
+import { studies } from "./data";
+import styles from "./formation.module.scss";
 
 const Studies = () => {
   return (
