@@ -11,12 +11,13 @@ import aerolab from "../../assets/projects/aerolab.jpg";
 import visualboost from "../../assets/projects/visualboost.png";
 import openlol from "../../assets/projects/openlol.jpg";
 import trocar from "../../assets/projects/trocar.png";
+import electroml from "../../assets/projects/electroml.jpg";
 
 export const projects: Project[] = [
   {
     id: 16,
     name: "ElectroML",
-    img: nodejs,
+    img: electroml,
     linkWeb: "https://electroml.com.ar",
     linkGithub: "",
     tags: [
