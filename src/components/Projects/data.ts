@@ -14,6 +14,20 @@ import trocar from "../../assets/projects/trocar.png";
 
 export const projects: Project[] = [
   {
+    id: 16,
+    name: "ElectroML",
+    img: nodejs,
+    linkWeb: "https://electroml.com.ar",
+    linkGithub: "",
+    tags: [
+      "reactjs",
+      "typescript",
+      "formik",
+      "slick",
+      "eslint",
+    ],
+  },
+  {
     id: 1,
     name: "API TeamCraft",
     img: nodejs,
@@ -37,7 +51,7 @@ export const projects: Project[] = [
     id: 3,
     name: "Visualboost",
     img: visualboost,
-    linkWeb: "http://visualboost.com.ar",
+    linkWeb: "https://visualboost-git-main-f-antonelli.vercel.app",
     linkGithub: "https://github.com/f-antonelli/visualboost",
     tags: ["typescript", "aos", "css"],
   },
@@ -96,7 +110,7 @@ export const projects: Project[] = [
     id: 10,
     name: "Open LoL Torneos",
     img: openlol,
-    linkWeb: "http://www.openlol.com.ar/",
+    linkWeb: "https://web-lol-torneos.vercel.app",
     linkGithub: "https://github.com/f-antonelli/webLolTorneos",
     tags: ["html", "sass", "aos"],
   },
